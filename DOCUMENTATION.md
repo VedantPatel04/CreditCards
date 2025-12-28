@@ -56,8 +56,6 @@ urlpatterns = [
 urlpatterns = format_suffix_patterns(urlpatterns, allowed=['json', 'api'])
 ```
 
-**Why no trailing slash?** Allows `.json` and `.api` suffixes to work correctly.
-
 #### 6. Run Server
 ```bash
 python manage.py migrate
