@@ -1,0 +1,6 @@
+# Core Django + DRF (Milestone 1)
+Django==5.0.1
+djangorestframework==3.14.0
+
+# Environment variables
+python-decouple==3.8
